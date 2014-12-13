@@ -1,0 +1,48 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingBottom="48dp"
+    android:background="@color/grey_dark"
+    android:id="@+id/fragmentContainer" >
+
+    <com.luciofm.nextlevel.ifican.widget.TextView
+        android:id="@+id/text1"
+        android:text="Waiting connection..."
+        android:gravity="center"
+        android:textSize="@dimen/text_title_big"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="@color/grey_light"
+        style="@style/TextShadow"
+        app:typeFace="YanoneKaffeesatz-Regular.ttf"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/input_ip"/>
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="connect"
+        android:textColor="@color/pink"
+        android:background="@drawable/ripple_with_background"
+        android:id="@+id/button_connect"/>
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="start"
+        android:textColor="@color/pink"
+        android:background="@drawable/ripple_with_background"
+        android:id="@+id/button_start"/>
+
+
+</LinearLayout>

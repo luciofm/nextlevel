@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="grey_light">#f4f4f4</color>
+    <color name="grey_dark">#555555</color>
+    <color name="pink_light">#60ff6699</color>
+    <color name="pink">#ff6699</color>
+    <color name="pink_dark">#FF943B59</color>
+
+    <color name="soft_pink">#ffedf3</color>
+
+    <color name="soft_grey">#70202020</color>
+    <color name="soft_black">#C0000000</color>
+    <color name="grey">#202020</color>
+
+</resources>

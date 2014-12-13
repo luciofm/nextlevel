@@ -1,0 +1,52 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_light"
+    android:gravity="center"
+    android:animateLayoutChanges="true"
+    android:id="@+id/container"
+    android:clickable="true"
+    android:orientation="vertical"
+    tools:context="com.luciofm.nextlevel.ifican.fragment.WhatFragment">
+
+    <com.luciofm.nextlevel.ifican.widget.TextView
+        android:id="@+id/text1"
+        android:text="TUDO"
+        android:padding="@dimen/padding_big"
+        android:gravity="center"
+        android:textSize="@dimen/text_title_huge"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/pink"
+        app:typeFace="YanoneKaffeesatz-Regular.ttf"/>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/too_much"
+        android:layout_margin="16dp"
+        android:visibility="gone"
+        android:id="@+id/gif1"/>
+
+    <com.luciofm.nextlevel.ifican.widget.TextView
+        android:id="@+id/text2"
+        android:text="Tudo o que faz sentido."
+        android:padding="@dimen/padding_big"
+        android:gravity="center"
+        android:textSize="@dimen/text_title_big"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/grey_light"
+        android:background="@color/pink"
+        app:typeFace="YanoneKaffeesatz-Regular.ttf"
+        android:visibility="gone"
+        tools:visibility="visible"/>
+
+</LinearLayout>
